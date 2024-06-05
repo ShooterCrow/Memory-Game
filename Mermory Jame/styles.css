@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    border: 1px solid black;
+    width: 100px; 
+    height: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+#score {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 50%;
+    max-width: 402px;
+    display: none;
+}
+
+button {
+    margin: 10px;
+}
