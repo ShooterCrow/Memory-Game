@@ -191,6 +191,7 @@ function flipCard () {
 
 cardArray.sort(() => 0.5 - Math.random())
 let createCards = (type) => {    
+    document.querySelector("#hero").style.display = 'none'
     container.style.display = "flex"
     score.style.display = "flex"
     container.innerHTML = ''
