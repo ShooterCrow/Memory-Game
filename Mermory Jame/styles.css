@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .box {
-    border: 1px solid black;
+    border: 1px solid white;
     width: 100px; 
     height: 100px;
 }

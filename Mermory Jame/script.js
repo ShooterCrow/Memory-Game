@@ -15,104 +15,40 @@ neonCursor({
 })
 
 
+let array = [
+{
+    name: 'fries',
+    imaje:'imajes/fries.png'
+},
+{
+    name: 'burjer',
+    imaje:'imajes/burjer.png'
+},
+{
+    name: 'ice-cream',
+    imaje:'imajes/ice-cream.png'
+},
+{
+    name: 'jotdoj',
+    imaje:'imajes/jotdoj.png'
+},
+{
+    name: 'milksjake',
+    imaje:'imajes/milksjake.png'
+},
+{
+    name: 'pizza',
+    imaje:'imajes/pizza.png'
+}]
 
-const cardArray = [
-    {
-        name: 'fries',
-        imaje:'imajes/fries.png'
-    },
-    {
-        name: 'burjer',
-        imaje:'imajes/burjer.png'
-    },
-    {
-        name: 'ice-cream',
-        imaje:'imajes/ice-cream.png'
-    },
-    {
-        name: 'jotdoj',
-        imaje:'imajes/jotdoj.png'
-    },
-    {
-        name: 'milksjake',
-        imaje:'imajes/milksjake.png'
-    },
-    {
-        name: 'pizza',
-        imaje:'imajes/pizza.png'
-    },
-    {
-        name: 'fries',
-        imaje:'imajes/fries.png'
-    },
-    {
-        name: 'burjer',
-        imaje:'imajes/burjer.png'
-    },
-    {
-        name: 'ice-cream',
-        imaje:'imajes/ice-cream.png'
-    },
-    {
-        name: 'jotdoj',
-        imaje:'imajes/jotdoj.png'
-    },
-    {
-        name: 'milksjake',
-        imaje:'imajes/milksjake.png'
-    },
-    {
-        name: 'pizza',
-        imaje:'imajes/pizza.png'
-    },{
-        name: 'fries',
-        imaje:'imajes/fries.png'
-    },
-    {
-        name: 'burjer',
-        imaje:'imajes/burjer.png'
-    },
-    {
-        name: 'ice-cream',
-        imaje:'imajes/ice-cream.png'
-    },
-    {
-        name: 'jotdoj',
-        imaje:'imajes/jotdoj.png'
-    },
-    {
-        name: 'milksjake',
-        imaje:'imajes/milksjake.png'
-    },
-    {
-        name: 'pizza',
-        imaje:'imajes/pizza.png'
-    },
-    {
-        name: 'fries',
-        imaje:'imajes/fries.png'
-    },
-    {
-        name: 'burjer',
-        imaje:'imajes/burjer.png'
-    },
-    {
-        name: 'ice-cream',
-        imaje:'imajes/ice-cream.png'
-    },
-    {
-        name: 'jotdoj',
-        imaje:'imajes/jotdoj.png'
-    },
-    {
-        name: 'milksjake',
-        imaje:'imajes/milksjake.png'
-    },
-    {
-        name: 'pizza',
-        imaje:'imajes/pizza.png'
-    }  
-]
+
+let cardArray = []
+
+for (let i = 0; i < 2; i++) {
+    let cr = cardArray.concat(array)
+    console.log(cr)
+}
+
 
 
 const type = document.querySelector("button");
